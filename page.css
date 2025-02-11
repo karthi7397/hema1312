@@ -1,0 +1,82 @@
+.container{
+   background-image: url(webimage.jpg);
+  background-position: center;
+  width: 1600px;
+ height: 1800px;
+
+  background-size: cover;
+}
+.header{
+inline-size: auto;
+text-align: left;
+padding-top: 30px;
+padding-left: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: xx-large;
+color: blueviolet;
+
+}
+
+.onpic{
+   text-align: center;
+   padding-top: 400px;
+   font-style: oblique;
+   font-weight: bolder;
+   color: chartreuse;
+   .p{
+      margin-top: 3000px;
+      margin-bottom: 20px;
+   }
+}
+.right {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   max-width: 1200px;
+   margin: 50px auto;
+   gap: 40px;
+}
+
+.about_courses{
+   flex: 1;
+   max-width: 50%;
+}
+
+.form {
+   flex: 1;
+   max-width: 50%;
+   background: #f4f4f4;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.footer{
+
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color:papayawhip;
+   color: purple;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-weight: bold
+   
+}
+
+.logo{
+
+   border-radius: 50%;
+   padding-left: 30px;
+   padding-top: 30px;
+
+}
+
+.points{
+
+   padding-top: 50%;
+   padding-left: 10%;
+   
+   color: red;
+   
+}
